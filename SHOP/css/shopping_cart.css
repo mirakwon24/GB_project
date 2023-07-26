@@ -1,0 +1,336 @@
+/*TITLE PAGE*/
+.page__title__container{
+background-color: #F8F3F4;
+padding: 40px 0 40px 0;  
+}
+
+.page__title__text{
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #F16D7F;
+width: 50%;   
+}
+
+
+/*CART BOX*/
+.cart__box {
+display: flex;
+justify-content: space-between;
+padding: 96px 0 128px 0;
+  }
+  
+  .cart__box__product {
+   display: flex;
+flex-direction: column;
+gap: 40px;
+  }
+  
+  .cart__box__product__card {
+    position: relative;
+   box-sizing: border-box;
+   display: flex;
+    gap: 31px;
+    width: 652px;
+    height: 306px;
+   box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+  }
+  
+  .cart__box__product__card:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 1;
+    transition: transform .5s;
+    
+  }
+  
+  .cart__box__product__card__information span {
+    color: #F16D7F;
+  }
+  
+  .cart__box__product__card__information__h3 {
+    padding: 22px 0 42px 0;
+  }
+  
+  .cart__box__product__card__title {
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    margin: 0;
+  }
+  
+  .cart__box__product__card__options {
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+    margin: 6px;
+  }
+  
+  .cart__box__product__card__options__quantity {
+   display: flex;
+gap: 25px;
+    align-items: center;
+  }
+  
+  .cart__box__product__card__options__border {
+    height: 25px;
+    width: 44px;
+    border: 1px solid #EAEAEA;
+  }
+  
+  .cart__box__product__card__options__border:focus {
+    outline: none;
+    opacity: 0.6;
+  }
+  
+  
+  .cart__box__product__card__options__border::placeholder {
+    text-align: center;
+  }
+  
+  .cart__box__product__card__close__btn {
+    background-color: white;
+    border: none;
+    padding: 0;
+    position: absolute;
+    right: 22px;
+    top: 28px;
+  }
+  
+  .cart__box__product__card__close__btn:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  .cart__box__btns {
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cart__box__btn {
+    padding: 16px 40px 16px 40px;
+    background-color: white;
+    border: 1px solid #A4A4A4;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  
+  .cart__box__btn:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    
+  }
+  
+  .cart__box__shipping__h3 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin: 21px 0 21px 0;
+  }
+  
+  .cart__box__shipping__form {
+   display: flex;
+flex-direction: column;
+gap: 21px;
+  }
+  
+  .cart__box__shipping__form__input {
+    height: 45px;
+    width: 360px;
+    border: 1px solid #A4A4A4;
+  }
+
+  
+  .cart__box__shipping__form__input::placeholder {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #222222;
+    padding-left: 17px;
+  }
+  
+  .cart__box__shipping__form__input:focus {
+    outline: none;
+    opacity: 0.6;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  
+  .cart__box__shipping__form__btn {
+    padding: 10px 14px 10px 14px;
+    background-color: white;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    border: 1px solid #A4A4A4;
+
+  }
+  
+  .cart__box__shipping__form__btn:hover {
+opacity: 0.6;
+cursor: pointer;
+    
+  }
+  
+  .cart__box__right {
+   display: flex;
+flex-direction: column;
+gap: 57px;
+  }
+  
+  .cart__box__price {
+    padding: 39px 28px 42px 38px;
+    background-color: #F5F3F3;
+  }
+  
+  .cart__box__price__total {
+    text-align: right;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #E2E2E2;
+  }
+  
+  .cart__box__price__sub {
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    margin-top: 0;
+  }
+  
+  .cart__box_price__grand {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin: 0;
+  }
+  
+  .cart__box_price__grand__color {
+    color: #F16D7F;
+  }
+  
+  .cart__box__price__button {
+margin-top: 17px;
+display: flex;
+   justify-content: center;
+  }
+  
+  .cart__box__price__btn {
+    padding: 15px 35px 16px 38px;
+    background-color: #F16D7F;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+  }
+  
+  .cart__box__price__btn:hover {
+    background-color: #F5F3F3;
+    outline: 1px solid #F16D7F;
+    color: #F16D7F;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+
+  /*REGISTRATION BLOCK*/
+  
+  .registration__container {
+   display: flex;
+   justify-content: space-between;
+    margin: 64px 0 96px 0;
+  }
+  
+  .form__registration__left {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+  }
+  
+  .form__registration__left h4 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+  }
+  
+  
+  
+  .form__registration__left__text {
+    margin: -6px 0 39px 0;
+  }
+  
+  .form__registration__left__btn {
+    padding: 17px 29px 17px 29px;
+    background-color: #F16D7F;
+    color: white;
+    border: none;
+   display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .form__registration__left__btn:hover {
+    background-color: #F0485E;
+    cursor: pointer;
+  }
+  
+  .form__registration__left__btn:focus {
+    outline: none;
+    background-color: #F0485E;
+  }
+  
+  .form__registration__left__input {
+    padding: 12px 17px 16px 17px;
+    background-color: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    margin-bottom: 21px;
+    width: 324px;
+  }
+  
+  .form__registration__left__input:focus {
+    outline: none;
+    opacity: 0.6;
+  }
+  
+  .form__registration__left__gender {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .form__registration__left__gender__input {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+  }
+  
+  .form__registration__left__gender__input:focus {
+    outline: none;
+    opacity: 0.6;
+  }
+  
+  .form__registration__right {
+    width: 58%;
+  }
+  
+  .form__registration__right__content, .form__registration__right__content__list, .form__registration__right h3 {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+  
+  .form__registration__right__content__list, .form__registration__right__content__list__list, .form__registration__right h3__list {
+    list-style-image: url("../img/marker.png");
+  }
+  
+  .form__registration__right__content li, .form__registration__right__content__list li, .form__registration__right h3 li {
+    padding: 0 0 16px 23px;
+  }
